@@ -1,0 +1,55 @@
+.container {
+  background-color: #330897;
+  padding: 2rem;
+}
+
+.container .left h1 {
+  color: yellow;
+  background-color: black;
+}
+
+.container .left p {
+  background-color: red;
+  color: white;
+}
+
+.container .right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 11fr 1fr;
+      grid-template-columns: 11fr 1fr;
+}
+
+.container .right h2 {
+  padding: 10px;
+  text-align: center;
+  background-color: #2a21b1;
+}
+
+.container .right button {
+  background-color: black;
+  color: white;
+  color: blue;
+}
+
+.container .right {
+  padding: 2rem;
+}
+
+.container .right h2 {
+  color: pink !important;
+  color: gold;
+}
+
+.container .right .btn {
+  background-color: yellow;
+  color: white;
+  padding: 2rem;
+}
+
+.container .right .btn:hover {
+  background-color: #2f00ff;
+  color: white;
+  padding: 2rem;
+}
+/*# sourceMappingURL=Practice.css.map */

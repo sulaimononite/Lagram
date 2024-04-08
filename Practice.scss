@@ -1,0 +1,29 @@
+$bit: gold;
+$ade:pink;
+.container{
+    background-color: rgb(51, 8, 151);
+    padding: 2rem;
+    @import "./left"
+    ;
+    @import "./right";
+    .right{
+        padding: 2rem;
+    
+    h2{
+        color:$ade !important;
+        color:$bit;
+    }
+    .btn{
+        background-color: yellow;
+        color: white;
+        padding: 2rem;
+        &:hover {
+            background-color: rgb(47, 0, 255);
+            color: white;
+            padding: 2rem;
+        }
+    }
+    
+
+}
+}
